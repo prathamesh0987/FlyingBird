@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".AddUser">
+
+    <LinearLayout
+        android:id="@+id/add_user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/parents_details"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/parentsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:hint="@string/full_name"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/parentsMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:hint="@string/phone"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/parentsEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:hint="@string/mail_id"
+            android:inputType="textEmailAddress"/>
+
+        <Button
+            android:id="@+id/saveUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_btn"
+            android:text="@string/save"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

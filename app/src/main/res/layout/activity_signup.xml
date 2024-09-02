@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Signup">
+
+    <EditText
+        android:id="@+id/sName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/full_name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/sPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:maxLength="10"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/sMailID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/mail_id"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/sPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/sConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:hint="@string/re_enter_password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/sSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/submit"
+        android:background="@drawable/rounded_btn"/>
+
+</LinearLayout>

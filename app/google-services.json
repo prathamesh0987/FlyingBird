@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "90667123192",
+    "firebase_url": "https://flyingbird-3124d.firebaseio.com",
+    "project_id": "flyingbird-3124d",
+    "storage_bucket": "flyingbird-3124d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90667123192:android:569d44e29348685d",
+        "android_client_info": {
+          "package_name": "svrinfotech.com.flyingbird"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90667123192-5lu00p2qi72s12oplkp7gudka19qvafr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "svrinfotech.com.flyingbird",
+            "certificate_hash": "e641fe3caec5822eb7fbf4c81945e7bb8630c4a7"
+          }
+        },
+        {
+          "client_id": "90667123192-8v74ubs80kp611bhn74io2j7pbeic1ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6R5xI3YroQoVvUxlbO1Re-jNY5E-Xi6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90667123192-8v74ubs80kp611bhn74io2j7pbeic1ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

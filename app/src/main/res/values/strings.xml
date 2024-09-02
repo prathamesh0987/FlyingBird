@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Flying Bird</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="addUser">ADD USER</string>
+    <string name="sendMessage">SEND MESSAGE</string>
+    <string name="title_activity_login">Login</string>
+    <string name="username">USERNAME</string>
+    <string name="password_place_holder">******</string>
+    <string name="password">PASSWORD</string>
+    <string name="forget_password">FORGET PASSWORD?</string>
+    <string name="signup">SIGNUP</string>
+    <string name="full_name">FULL NAME</string>
+    <string name="phone">MOBILE NO</string>
+    <string name="mail_id">MAIL-ID</string>
+    <string name="re_enter_password">RE-ENTER PASSWORD</string>
+    <string name="submit">SUBMIT</string>
+    <string name="save">SAVE</string>
+    <string name="parents_details"><u><b>Fill Parents Details</b></u></string>
+    <string name="to">TO : </string>
+    <string name="msg">MESSAGE : </string>
+    <string name="send">SEND</string>
+</resources>

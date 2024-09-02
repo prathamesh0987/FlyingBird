@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".SendMessage">
+
+    <LinearLayout
+        android:id="@+id/message_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <!--<LinearLayout
+        android:id="@+id/contact_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to"/>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/contacts"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/sms_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msg"/>
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="@dimen/width"
+                android:layout_height="wrap_content"
+                android:lines="5"
+                android:maxLines="6"
+                android:inputType="text"
+                android:scrollbars="vertical"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send"
+            android:background="@drawable/rounded_btn"/>
+
+        </LinearLayout>
+
+
+
+</FrameLayout>
